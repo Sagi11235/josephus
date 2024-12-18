@@ -8,4 +8,4 @@ def josephus(people):
     else:
         return int(2*josephus((1+people)/2)-3)%(people+1)
 
-print(josephus417))
+print(josephus(41))
